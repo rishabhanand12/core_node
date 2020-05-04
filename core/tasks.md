@@ -1,8 +1,14 @@
 1. Explain Node and V8 in your own words ? 
 // Answer here...
+Node is a packaged compilation of google's V8 JS engine and 
 
 2. Explain steps in REPL(here) and command to start REPL ?
 // Answer here...
+ Steps of REPL are
+ 1. Read code from terminal
+ 2. Evaluate them
+ 3. Prints the result
+ 4. Start the same loog again (i.e waits for code snippet)
 
 3. Run `index.js` in the same directory as script writer using `node FILE_NAME.js` and output result of console here.
 
@@ -15,7 +21,7 @@
 
 7. Request from browser `https://altcampus.io` and copy request, response and general headers into answer.js.
 
-8. Parse the URL `http://localhost:3000/api/v3?token=8372fcb8y2874b2t478t6t48cbtbc72t4` using `url` module's parse method and write output in answer.js
+8. Parse the URL `http://localhost:3000/api/v3?token=8372fcb8y2874b2t478t6t48cbtbc72t4` using `url` module's parse metho  d and write output in answer.js
 
 9. parse the query object as well from above url using `url.parse(url, true)` and output result in answer.js
 
